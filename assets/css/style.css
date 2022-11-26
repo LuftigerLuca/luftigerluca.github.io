@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("/assets/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    backdrop-filter: blur(10px);
+}
+
+#hero-section{
+    height: 100vh;
+    color: white;
+}
+
+#spenden-section{
+    height: 100vh;
+
+    background-color: white;
+    box-shadow: 0 0 50px 5px #000000;
+}
+
+
